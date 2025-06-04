@@ -1,0 +1,6 @@
+seaborn
+label-studio
+keras
+tensorflow
+pyts
+tkinter

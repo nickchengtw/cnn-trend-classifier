@@ -1,0 +1,560 @@
+[
+    {
+        "id": 1,
+        "annotations": [
+            {
+                "id": 1,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": "2016-01-14",
+                            "end": "2016-03-31",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "UpTrend"
+                            ]
+                        },
+                        "id": "cjeY9qo_Oj",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2016-04-13",
+                            "end": "2016-05-13",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "DownTrend"
+                            ]
+                        },
+                        "id": "mWPfZB5C58",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2016-05-16",
+                            "end": "2016-06-22",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "UpTrend"
+                            ]
+                        },
+                        "id": "5gy0dAACd6",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2016-06-27",
+                            "end": "2016-09-01",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "UpTrend"
+                            ]
+                        },
+                        "id": "DSicEqqTrj",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2016-10-25",
+                            "end": "2016-12-02",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "DownTrend"
+                            ]
+                        },
+                        "id": "qcnFjpe5Xg",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2016-09-26",
+                            "end": "2016-10-25",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "UpTrend"
+                            ]
+                        },
+                        "id": "6i-qCN3Czt",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2016-12-23",
+                            "end": "2017-03-21",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "UpTrend"
+                            ]
+                        },
+                        "id": "vDjle9Es5T",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2024-09-04",
+                            "end": "2024-10-21",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "UpTrend"
+                            ]
+                        },
+                        "id": "VWOO5LSjqp",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2024-07-11",
+                            "end": "2024-08-05",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "DownTrend"
+                            ]
+                        },
+                        "id": "NlgIAA8_4O",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2023-10-04",
+                            "end": "2024-07-11",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "UpTrend"
+                            ]
+                        },
+                        "id": "nwSh1a2C2B",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2023-07-14",
+                            "end": "2023-10-04",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "DownTrend"
+                            ]
+                        },
+                        "id": "-xYfy2AALk",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2023-04-26",
+                            "end": "2023-06-13",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "UpTrend"
+                            ]
+                        },
+                        "id": "PoEoXV7s0F",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2022-12-29",
+                            "end": "2023-02-10",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "UpTrend"
+                            ]
+                        },
+                        "id": "BJ1-fERrA_",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2023-03-24",
+                            "end": "2023-04-26",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "DownTrend"
+                            ]
+                        },
+                        "id": "JJUCDHRFv9",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2022-11-25",
+                            "end": "2022-12-29",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "DownTrend"
+                            ]
+                        },
+                        "id": "MqrXuI-1y3",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2022-08-17",
+                            "end": "2022-10-25",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "DownTrend"
+                            ]
+                        },
+                        "id": "NIyUg9XsB2",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2022-07-06",
+                            "end": "2022-08-17",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "UpTrend"
+                            ]
+                        },
+                        "id": "a-AaCABdBw",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2022-01-17",
+                            "end": "2022-07-06",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "DownTrend"
+                            ]
+                        },
+                        "id": "se0DbHDNVT",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2021-10-06",
+                            "end": "2022-01-17",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "UpTrend"
+                            ]
+                        },
+                        "id": "GCA5d_VDCR",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2021-02-17",
+                            "end": "2021-05-13",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "DownTrend"
+                            ]
+                        },
+                        "id": "BewDKib57U",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2020-10-30",
+                            "end": "2021-02-17",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "UpTrend"
+                            ]
+                        },
+                        "id": "CaBUu7MqyM",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2017-04-19",
+                            "end": "2017-10-13",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "UpTrend"
+                            ]
+                        },
+                        "id": "Iam1jB_ofF",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2020-05-29",
+                            "end": "2020-07-28",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "UpTrend"
+                            ]
+                        },
+                        "id": "3sZFYm3eVA",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2019-12-17",
+                            "end": "2020-03-19",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "DownTrend"
+                            ]
+                        },
+                        "id": "0_Ib-hT3DE",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2019-08-13",
+                            "end": "2019-12-17",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "UpTrend"
+                            ]
+                        },
+                        "id": "zpDGVGDQtq",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2019-04-24",
+                            "end": "2019-05-29",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "DownTrend"
+                            ]
+                        },
+                        "id": "xaCreEL1el",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2019-06-26",
+                            "end": "2019-07-25",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "UpTrend"
+                            ]
+                        },
+                        "id": "4zNGuJVWjh",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2019-01-04",
+                            "end": "2019-04-24",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "UpTrend"
+                            ]
+                        },
+                        "id": "9PDmnQIUVr",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2018-09-10",
+                            "end": "2018-10-25",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "DownTrend"
+                            ]
+                        },
+                        "id": "vRcDmWVthW",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2018-11-02",
+                            "end": "2019-01-04",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "DownTrend"
+                            ]
+                        },
+                        "id": "xE2kh___EV",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2018-06-28",
+                            "end": "2018-09-10",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "UpTrend"
+                            ]
+                        },
+                        "id": "cL_g6bgjLB",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2018-03-13",
+                            "end": "2018-05-03",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "DownTrend"
+                            ]
+                        },
+                        "id": "S8DfJnPNkz",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2018-05-03",
+                            "end": "2018-06-28",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "DownTrend"
+                            ]
+                        },
+                        "id": "ck8pRKLr9w",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": "2017-12-19",
+                            "end": "2018-01-23",
+                            "instant": false,
+                            "timeserieslabels": [
+                                "UpTrend"
+                            ]
+                        },
+                        "id": "VAJ0vaiAEX",
+                        "from_name": "label",
+                        "to_name": "ts",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-31T13:04:05.534833Z",
+                "updated_at": "2025-05-31T13:05:13.341757Z",
+                "draft_created_at": "2025-05-31T11:32:00.142781Z",
+                "lead_time": 5701.086,
+                "prediction": {},
+                "result_count": 34,
+                "unique_id": "1ec879e5-88ef-46af-b0ee-61afa88d3733",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 1,
+                "project": 2,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "b3b8e5fa-2330_stock_data_from_2016.csv",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "csv_url": "\/data\/upload\/2\/b3b8e5fa-2330_stock_data_from_2016.csv"
+        },
+        "meta": {},
+        "created_at": "2025-05-31T11:20:43.132602Z",
+        "updated_at": "2025-05-31T13:05:13.380507Z",
+        "inner_id": 1,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 2,
+        "updated_by": 1,
+        "comment_authors": []
+    }
+]
