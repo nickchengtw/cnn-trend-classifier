@@ -66,14 +66,13 @@ def make_labeled_data(df, labels_df):
 
 
 # Sort by date to ensure chronological order
-def get_window_dataset(df):
+def get_window_dataset(df, window_size):
     df = df.sort_values('Date').reset_index(drop=True)
 
     # Ensure 'Up Trend' and 'Down Trend' columns are strings
     df['UpTrend'] = df['UpTrend'].astype(str)
     df['DownTrend'] = df['DownTrend'].astype(str)
 
-    window_size = 15
     windows = []
     labels = []
 
@@ -83,9 +82,9 @@ def get_window_dataset(df):
         
         up_count = (window['UpTrend'] == 'UP').sum()
         down_count = (window['DownTrend'] == 'DOWN').sum()
-        if up_count > 7:
+        if up_count > (window_size // 2):
             labels.append('UP')
-        elif down_count > 7:
+        elif down_count > (window_size // 2):
             labels.append('DOWN')
         else:
             labels.append('MIXED')
