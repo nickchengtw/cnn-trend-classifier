@@ -79,11 +79,9 @@ model = Sequential([
     Dropout(0.5),
     Dense(3, activation='softmax')
 ])
-
 model.compile(optimizer=Adam(learning_rate=0.001),
               loss='categorical_crossentropy',
               metrics=['accuracy'])
-
 model.summary()
 
 print(f"Training data count: {len(X_train)}, Test data count: {len(X_test)}")

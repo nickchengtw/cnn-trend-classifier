@@ -15,12 +15,13 @@ from src.utils.plot import plot_labeled
 parser = argparse.ArgumentParser(description="Trend prediction with CNN")
 parser.add_argument('-c', '--csv_path', type=str, default='data/data.csv', help='Path to input CSV file')
 parser.add_argument('-m', '--model_path', type=str, default='models/cnn_1d_huge.keras', help='Path to trained model')
+parser.add_argument('-w', '--window_size', type=int, default=15, help='Size of the sliding window for time series data')
 parser.add_argument('-l', '--limit', type=int, default=180, help='Number of rows to load from CSV')
 
 args = parser.parse_args()
 
 # Constants
-WINDOW_SIZE = 15
+WINDOW_SIZE = args.window_size
 MIXED_LABEL = 1
 
 # Load the data
@@ -31,7 +32,7 @@ df_det = pd.read_csv(
     dtype={'Up Trend': 'object', 'Down Trend': 'object'}
 )[:args.limit]
 
-windows, labels = get_window_dataset(df_det)
+windows, labels = get_window_dataset(df_det, WINDOW_SIZE)
 
 X = np.array(windows)
 X = normalize_windows(X)
